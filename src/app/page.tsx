@@ -98,7 +98,7 @@ export default function Page() {
       {/* MAIN */}
       <main className="h-[calc(100vh-6.5rem)] w-screen flex bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-950 relative overflow-hidden">
 
-        {/* Loading overlay */}
+        {/*overlay */}
         <AnimatePresence>
           {loading && (
             <motion.div
@@ -123,7 +123,7 @@ export default function Page() {
           )}
         </AnimatePresence>
 
-        {/* LEFT PANEL */}
+        {/*LEFT PANEL*/}
         <div className="w-1/2 h-full overflow-y-auto p-10 border-r border-gray-200 dark:border-gray-800">
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.25 }}>
             <Card className="bg-white/70 dark:bg-gray-800/50 backdrop-blur-xl border border-gray-200 dark:border-gray-700 shadow-sm rounded-2xl">
@@ -229,7 +229,7 @@ export default function Page() {
           </motion.div>
         </div>
 
-        {/* PREVIEW */}
+        {/*PREVIEW*/}
         <div className="w-1/2 h-full p-8 flex items-center justify-center">
           <AnimatePresence mode="wait">
             {pdfUrl ? (
@@ -252,7 +252,7 @@ export default function Page() {
         </div>
       </main>
 
-      {/* FOOTER with social + donation */}
+      {/*FOOTER*/}
       <footer className="w-full flex flex-col sm:flex-row items-center justify-between gap-3 px-6 py-4 text-sm text-gray-600 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800 bg-white/60 dark:bg-gray-900/50 backdrop-blur-xl">
         <div>© {new Date().getFullYear()} PDFWizzard.fr — Built with ❤️</div>
         <div className="flex items-center gap-4">
