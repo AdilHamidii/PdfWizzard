@@ -19,7 +19,7 @@ It uses AI (via Grok API) to produce LaTeX code automatically, compiles it into 
 
 ---
 
-## 🧠 Planned / Upcoming Technologies
+## Planned / Upcoming Technologies
 
 | Feature | Planned Technology |
 |----------|--------------------|
@@ -32,8 +32,6 @@ It uses AI (via Grok API) to produce LaTeX code automatically, compiles it into 
 | PDF history storage | S3-compatible object storage |
 
 ---
-
-## ⚙️ Development Setup
 
 Clone and run locally:
 
