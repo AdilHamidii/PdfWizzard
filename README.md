@@ -5,7 +5,7 @@ It uses AI (via Grok API) to produce LaTeX code automatically, compiles it into 
 
 ---
 
-## 🚀 Current Stack
+## Current Stack
 
 | Layer | Technology | Purpose |
 |--------|-------------|----------|
